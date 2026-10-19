@@ -2,9 +2,9 @@ The test for a documentation tool is whether you can hand it a spec and get back
 
 The input
 
-I used the OpenAPI description for 1Password Connect, the self-hosted REST API for 1Password. The published spec is OpenAPI 3.0.2, 55 KB, with 11 paths and 15 operations. It is a normal production spec: authentication schemes, path parameters, request bodies, response schemas, and error responses. Nothing was trimmed for a demo.
+I used the OpenAPI description for 1Password Connect, the self-hosted REST API for 1Password. The published spec is OpenAPI 3.0.2, 38 KB, with 11 paths and 15 operations. It is a normal production spec: authentication schemes, path parameters, request bodies, response schemas, and error responses. Nothing was trimmed for a demo.
 
-The copy I used is mirrored by APIs.guru at https://api.apis.guru/v2/specs/1password.local/connect/1.5.7/openapi.json. I saved it as 1password-connect.json in an empty directory.
+The copy I used is in 1Password's public repository at https://github.com/1Password/connect/blob/main/docs/openapi/spec.yaml. I saved it as 1password-connect.yaml in an empty directory.
 
 The build
 
@@ -31,7 +31,7 @@ export default defineConfig({
       {
         tab: "API Reference",
         slug: "api",
-        source: openapi("./1password-connect.json"),
+        source: openapi("./1password-connect.yaml"),
       },
     ],
   },
@@ -84,7 +84,7 @@ That is the whole argument for owning the output. It is also why the open-source
 Reproduce it
 
 mkdir connect-docs && cd connect-docs
-curl -L -o 1password-connect.json https://api.apis.guru/v2/specs/1password.local/connect/1.5.7/openapi.json
+curl -L -o 1password-connect.yaml https://raw.githubusercontent.com/1Password/connect/main/docs/openapi/spec.yaml
 npx sourcey@3.7.1 init
 npm install
 npx sourcey build
@@ -98,4 +98,4 @@ Facts I checked
 - The docs page lists the dev server at http://localhost:4400 and the inputs as OpenAPI, MCP, Doxygen, godoc, rustdoc, and Markdown: https://sourcey.com/docs. Checked 19 October 2026.
 - The public repository shows the AGPL-3.0 licence and a last push on 18 October 2026: https://github.com/sourcey/sourcey. Checked 19 October 2026.
 
-The build numbers in this piece are from my own run on 19 October 2026, not from a Sourcey page. The spec is 1Password's, and the mirror is APIs.guru's. Sourcey generated the site; it did not write the API description.
+The build numbers in this piece are from my own run on 19 October 2026, not from a Sourcey page. The spec is 1Password's. Sourcey generated the site; it did not write the API description.
