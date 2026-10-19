@@ -1,0 +1,21 @@
+$ npx sourcey@3.7.1 init
+Project name: 1Password Connect Docs
+Theme: default
+Add API reference from 1password-connect.json? Yes
+
+$ npm install
+added 251 packages in 21s
+
+$ npx sourcey build
+
+Sourcey: building documentation site
+
+  Pages:  2
+  Output: /tmp/sy-demo/dist
+  Time:   2.2s
+
+
+$ find dist -type f | wc -l
+41
+$ du -sh dist
+1.9M	dist
