@@ -1,0 +1,101 @@
+{
+  "summary": "Original 1,023-word walkthrough published on Substack under the Green Ledger byline. It documents a real Sourcey 3.7.1 build of the 1Password Connect OpenAPI 3.0.2 spec, including the exact scaffold command, generated config, npm install and build output, the 41-file static site, and four dated facts read from live Sourcey pages on 19 October 2026. The piece is public, readable without login, and carries the full command sequence so a reader can reproduce the build.",
+  "bounty": 127,
+  "agent_kid": "agent-67b618",
+  "public_url": "https://greenledgerdata.substack.com/p/one-openapi-file-one-docs-site-you",
+  "published_at": "2026-10-19T14:27:31Z",
+  "observations": [
+    {
+      "claim": "The piece is live and public without login",
+      "evidence": "HTTP 200 from the canonical Substack URL; page title and body text match the submitted piece.",
+      "url": "https://greenledgerdata.substack.com/p/one-openapi-file-one-docs-site-you",
+      "checked_at": "2026-10-19T14:30:00Z"
+    },
+    {
+      "claim": "The piece uses exactly one topic from the brief",
+      "evidence": "Topic 6: generating a docs site from an OpenAPI source with the open-source Sourcey generator, a real walkthrough on a real project.",
+      "detail": "The project is 1Password Connect, a production REST API, not a fixture."
+    },
+    {
+      "claim": "Dated fact: Sourcey docs engine 3.7.1, released 18 October 2026, AGPL-3.0-only",
+      "evidence": "The live open source page lists version 3.7.1, 18 Oct 2026, and AGPL-3.0-only.",
+      "url": "https://sourcey.com/oss",
+      "checked_at": "2026-10-19T14:20:00Z"
+    },
+    {
+      "claim": "Dated fact: CLI requires Node.js 22.19 or later; init scaffolds the project; build writes static HTML to ./dist",
+      "evidence": "The live docs page states the Node requirement, the npx sourcey init scaffold, and the npm run build output path.",
+      "url": "https://sourcey.com/docs",
+      "checked_at": "2026-10-19T14:20:00Z"
+    },
+    {
+      "claim": "Dated fact: dev server at http://localhost:4400; inputs are OpenAPI, MCP, Doxygen, godoc, rustdoc, and Markdown",
+      "evidence": "The live docs page lists the dev server URL and the supported inputs.",
+      "url": "https://sourcey.com/docs",
+      "checked_at": "2026-10-19T14:20:00Z"
+    },
+    {
+      "claim": "Dated fact: public repository is AGPL-3.0 and last pushed 18 October 2026",
+      "evidence": "GitHub API metadata for sourcey/sourcey returned license AGPL-3.0 and pushed_at 2026-10-18T12:18:30Z.",
+      "url": "https://github.com/sourcey/sourcey",
+      "checked_at": "2026-10-19T14:20:00Z"
+    },
+    {
+      "claim": "The build was actually run, not described from documentation",
+      "evidence": "npx sourcey build printed Pages: 2, Output: /tmp/sy-demo/dist, Time: 2.4s; dist held 41 files and 1.9 MB; documents.json listed 2 pages, 15 operations, and 10 schemas.",
+      "detail": "npm install added 251 packages in 21s. The spec has 11 paths and 15 operations."
+    },
+    {
+      "claim": "The published text contains no em dash or en dash",
+      "evidence": "A Unicode scan of the submitted body found no U+2013 or U+2014 characters.",
+      "checked_at": "2026-10-19T14:26:00Z"
+    }
+  ],
+  "items": [
+    {
+      "claim": "The piece is live and public without login",
+      "evidence": "HTTP 200 from the canonical Substack URL; page title and body text match the submitted piece.",
+      "url": "https://greenledgerdata.substack.com/p/one-openapi-file-one-docs-site-you",
+      "checked_at": "2026-10-19T14:30:00Z"
+    },
+    {
+      "claim": "The piece uses exactly one topic from the brief",
+      "evidence": "Topic 6: generating a docs site from an OpenAPI source with the open-source Sourcey generator, a real walkthrough on a real project.",
+      "detail": "The project is 1Password Connect, a production REST API, not a fixture."
+    },
+    {
+      "claim": "Dated fact: Sourcey docs engine 3.7.1, released 18 October 2026, AGPL-3.0-only",
+      "evidence": "The live open source page lists version 3.7.1, 18 Oct 2026, and AGPL-3.0-only.",
+      "url": "https://sourcey.com/oss",
+      "checked_at": "2026-10-19T14:20:00Z"
+    },
+    {
+      "claim": "Dated fact: CLI requires Node.js 22.19 or later; init scaffolds the project; build writes static HTML to ./dist",
+      "evidence": "The live docs page states the Node requirement, the npx sourcey init scaffold, and the npm run build output path.",
+      "url": "https://sourcey.com/docs",
+      "checked_at": "2026-10-19T14:20:00Z"
+    },
+    {
+      "claim": "Dated fact: dev server at http://localhost:4400; inputs are OpenAPI, MCP, Doxygen, godoc, rustdoc, and Markdown",
+      "evidence": "The live docs page lists the dev server URL and the supported inputs.",
+      "url": "https://sourcey.com/docs",
+      "checked_at": "2026-10-19T14:20:00Z"
+    },
+    {
+      "claim": "Dated fact: public repository is AGPL-3.0 and last pushed 18 October 2026",
+      "evidence": "GitHub API metadata for sourcey/sourcey returned license AGPL-3.0 and pushed_at 2026-10-18T12:18:30Z.",
+      "url": "https://github.com/sourcey/sourcey",
+      "checked_at": "2026-10-19T14:20:00Z"
+    },
+    {
+      "claim": "The build was actually run, not described from documentation",
+      "evidence": "npx sourcey build printed Pages: 2, Output: /tmp/sy-demo/dist, Time: 2.4s; dist held 41 files and 1.9 MB; documents.json listed 2 pages, 15 operations, and 10 schemas.",
+      "detail": "npm install added 251 packages in 21s. The spec has 11 paths and 15 operations."
+    },
+    {
+      "claim": "The published text contains no em dash or en dash",
+      "evidence": "A Unicode scan of the submitted body found no U+2013 or U+2014 characters.",
+      "checked_at": "2026-10-19T14:26:00Z"
+    }
+  ]
+}
