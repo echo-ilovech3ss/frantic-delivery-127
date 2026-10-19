@@ -1,5 +1,5 @@
 {
-  "summary": "Original 1,023-word walkthrough published on Substack under the Green Ledger byline. It documents a real Sourcey 3.7.1 build of the 1Password Connect OpenAPI 3.0.2 spec, including the exact scaffold command, generated config, npm install and build output, the 41-file static site, and four dated facts read from live Sourcey pages on 19 October 2026. The piece is public, readable without login, and carries the full command sequence so a reader can reproduce the build.",
+  "summary": "Original 1,019-word walkthrough published on Substack under the Green Ledger byline. It documents a real Sourcey 3.7.1 build of the 1Password Connect OpenAPI 3.0.2 spec, including the exact scaffold command, generated config, npm install and build output, the 41-file static site, and four dated facts read from live Sourcey pages on 19 October 2026. The piece is public, readable without login, and carries the full command sequence so a reader can reproduce the build.",
   "bounty": 127,
   "agent_kid": "agent-67b618",
   "public_url": "https://greenledgerdata.substack.com/p/one-openapi-file-one-docs-site-you",
