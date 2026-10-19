@@ -1,0 +1,276 @@
+{
+  "version": 1,
+  "name": "1Password Connect Docs",
+  "documents": [
+    {
+      "id": "introduction.md",
+      "kind": "page",
+      "title": "Introduction",
+      "description": "Welcome to 1Password Connect Docs",
+      "tab": "",
+      "url": "/introduction.html",
+      "markdown": "/introduction.md",
+      "file": "introduction.md"
+    },
+    {
+      "id": "api.md",
+      "kind": "page",
+      "title": "1Password Connect",
+      "description": "REST API interface for 1Password Connect.",
+      "tab": "api",
+      "url": "/api.html",
+      "markdown": "/api.md",
+      "file": "api.md"
+    },
+    {
+      "id": "api/operations/operation-activity-get.md",
+      "kind": "operation",
+      "title": "GET /activity",
+      "description": "Retrieve a list of API Requests that have been made.",
+      "tab": "api",
+      "url": "/api.html#operation-activity-get",
+      "markdown": "/api/operations/operation-activity-get.md",
+      "file": "api/operations/operation-activity-get.md"
+    },
+    {
+      "id": "api/operations/operation-health-get.md",
+      "kind": "operation",
+      "title": "GET /health",
+      "description": "Get state of the server and its dependencies.",
+      "tab": "api",
+      "url": "/api.html#operation-health-get",
+      "markdown": "/api/operations/operation-health-get.md",
+      "file": "api/operations/operation-health-get.md"
+    },
+    {
+      "id": "api/operations/operation-heartbeat-get.md",
+      "kind": "operation",
+      "title": "GET /heartbeat",
+      "description": "Ping the server for liveness",
+      "tab": "api",
+      "url": "/api.html#operation-heartbeat-get",
+      "markdown": "/api/operations/operation-heartbeat-get.md",
+      "file": "api/operations/operation-heartbeat-get.md"
+    },
+    {
+      "id": "api/operations/operation-metrics-get.md",
+      "kind": "operation",
+      "title": "GET /metrics",
+      "description": "Query server for exposed Prometheus metrics",
+      "tab": "api",
+      "url": "/api.html#operation-metrics-get",
+      "markdown": "/api/operations/operation-metrics-get.md",
+      "file": "api/operations/operation-metrics-get.md"
+    },
+    {
+      "id": "api/operations/operation-vaults-get.md",
+      "kind": "operation",
+      "title": "GET /vaults",
+      "description": "Get all Vaults",
+      "tab": "api",
+      "url": "/api.html#operation-vaults-get",
+      "markdown": "/api/operations/operation-vaults-get.md",
+      "file": "api/operations/operation-vaults-get.md"
+    },
+    {
+      "id": "api/operations/operation-vaults-vaultuuid-get.md",
+      "kind": "operation",
+      "title": "GET /vaults/{vaultUuid}",
+      "description": "Get Vault details and metadata",
+      "tab": "api",
+      "url": "/api.html#operation-vaults-vaultuuid-get",
+      "markdown": "/api/operations/operation-vaults-vaultuuid-get.md",
+      "file": "api/operations/operation-vaults-vaultuuid-get.md"
+    },
+    {
+      "id": "api/operations/operation-vaults-vaultuuid-items-get.md",
+      "kind": "operation",
+      "title": "GET /vaults/{vaultUuid}/items",
+      "description": "Get all items for inside a Vault",
+      "tab": "api",
+      "url": "/api.html#operation-vaults-vaultuuid-items-get",
+      "markdown": "/api/operations/operation-vaults-vaultuuid-items-get.md",
+      "file": "api/operations/operation-vaults-vaultuuid-items-get.md"
+    },
+    {
+      "id": "api/operations/operation-vaults-vaultuuid-items-post.md",
+      "kind": "operation",
+      "title": "POST /vaults/{vaultUuid}/items",
+      "description": "Create a new Item",
+      "tab": "api",
+      "url": "/api.html#operation-vaults-vaultuuid-items-post",
+      "markdown": "/api/operations/operation-vaults-vaultuuid-items-post.md",
+      "file": "api/operations/operation-vaults-vaultuuid-items-post.md"
+    },
+    {
+      "id": "api/operations/operation-vaults-vaultuuid-items-itemuuid-get.md",
+      "kind": "operation",
+      "title": "GET /vaults/{vaultUuid}/items/{itemUuid}",
+      "description": "Get the details of an Item",
+      "tab": "api",
+      "url": "/api.html#operation-vaults-vaultuuid-items-itemuuid-get",
+      "markdown": "/api/operations/operation-vaults-vaultuuid-items-itemuuid-get.md",
+      "file": "api/operations/operation-vaults-vaultuuid-items-itemuuid-get.md"
+    },
+    {
+      "id": "api/operations/operation-vaults-vaultuuid-items-itemuuid-put.md",
+      "kind": "operation",
+      "title": "PUT /vaults/{vaultUuid}/items/{itemUuid}",
+      "description": "Update an Item",
+      "tab": "api",
+      "url": "/api.html#operation-vaults-vaultuuid-items-itemuuid-put",
+      "markdown": "/api/operations/operation-vaults-vaultuuid-items-itemuuid-put.md",
+      "file": "api/operations/operation-vaults-vaultuuid-items-itemuuid-put.md"
+    },
+    {
+      "id": "api/operations/operation-vaults-vaultuuid-items-itemuuid-delete.md",
+      "kind": "operation",
+      "title": "DELETE /vaults/{vaultUuid}/items/{itemUuid}",
+      "description": "Delete an Item",
+      "tab": "api",
+      "url": "/api.html#operation-vaults-vaultuuid-items-itemuuid-delete",
+      "markdown": "/api/operations/operation-vaults-vaultuuid-items-itemuuid-delete.md",
+      "file": "api/operations/operation-vaults-vaultuuid-items-itemuuid-delete.md"
+    },
+    {
+      "id": "api/operations/operation-vaults-vaultuuid-items-itemuuid-patch.md",
+      "kind": "operation",
+      "title": "PATCH /vaults/{vaultUuid}/items/{itemUuid}",
+      "description": "Update a subset of Item attributes",
+      "tab": "api",
+      "url": "/api.html#operation-vaults-vaultuuid-items-itemuuid-patch",
+      "markdown": "/api/operations/operation-vaults-vaultuuid-items-itemuuid-patch.md",
+      "file": "api/operations/operation-vaults-vaultuuid-items-itemuuid-patch.md"
+    },
+    {
+      "id": "api/operations/operation-vaults-vaultuuid-items-itemuuid-files-get.md",
+      "kind": "operation",
+      "title": "GET /vaults/{vaultUuid}/items/{itemUuid}/files",
+      "description": "Get all the files inside an Item",
+      "tab": "api",
+      "url": "/api.html#operation-vaults-vaultuuid-items-itemuuid-files-get",
+      "markdown": "/api/operations/operation-vaults-vaultuuid-items-itemuuid-files-get.md",
+      "file": "api/operations/operation-vaults-vaultuuid-items-itemuuid-files-get.md"
+    },
+    {
+      "id": "api/operations/operation-vaults-vaultuuid-items-itemuuid-files-fileuuid-get.md",
+      "kind": "operation",
+      "title": "GET /vaults/{vaultUuid}/items/{itemUuid}/files/{fileUuid}",
+      "description": "Get the details of a File",
+      "tab": "api",
+      "url": "/api.html#operation-vaults-vaultuuid-items-itemuuid-files-fileuuid-get",
+      "markdown": "/api/operations/operation-vaults-vaultuuid-items-itemuuid-files-fileuuid-get.md",
+      "file": "api/operations/operation-vaults-vaultuuid-items-itemuuid-files-fileuuid-get.md"
+    },
+    {
+      "id": "api/operations/operation-vaults-vaultuuid-items-itemuuid-files-fileuuid-content-get.md",
+      "kind": "operation",
+      "title": "GET /vaults/{vaultUuid}/items/{itemUuid}/files/{fileUuid}/content",
+      "description": "Get the content of a File",
+      "tab": "api",
+      "url": "/api.html#operation-vaults-vaultuuid-items-itemuuid-files-fileuuid-content-get",
+      "markdown": "/api/operations/operation-vaults-vaultuuid-items-itemuuid-files-fileuuid-content-get.md",
+      "file": "api/operations/operation-vaults-vaultuuid-items-itemuuid-files-fileuuid-content-get.md"
+    },
+    {
+      "id": "api/schemas/apirequest-11636afb45.md",
+      "kind": "schema",
+      "title": "APIRequest",
+      "description": "Represents a request that was made to the API. Including what Token was used and what resource was accessed.",
+      "tab": "api",
+      "url": "/api.html#definition-apirequest",
+      "markdown": "/api/schemas/apirequest-11636afb45.md",
+      "file": "api/schemas/apirequest-11636afb45.md"
+    },
+    {
+      "id": "api/schemas/errorresponse-d60c618393.md",
+      "kind": "schema",
+      "title": "ErrorResponse",
+      "description": "",
+      "tab": "api",
+      "url": "/api.html#definition-errorresponse",
+      "markdown": "/api/schemas/errorresponse-d60c618393.md",
+      "file": "api/schemas/errorresponse-d60c618393.md"
+    },
+    {
+      "id": "api/schemas/field-f45fc1dfdc.md",
+      "kind": "schema",
+      "title": "Field",
+      "description": "",
+      "tab": "api",
+      "url": "/api.html#definition-field",
+      "markdown": "/api/schemas/field-f45fc1dfdc.md",
+      "file": "api/schemas/field-f45fc1dfdc.md"
+    },
+    {
+      "id": "api/schemas/file-50009ce1da.md",
+      "kind": "schema",
+      "title": "File",
+      "description": "",
+      "tab": "api",
+      "url": "/api.html#definition-file",
+      "markdown": "/api/schemas/file-50009ce1da.md",
+      "file": "api/schemas/file-50009ce1da.md"
+    },
+    {
+      "id": "api/schemas/fullitem-d227e4327c.md",
+      "kind": "schema",
+      "title": "FullItem",
+      "description": "",
+      "tab": "api",
+      "url": "/api.html#definition-fullitem",
+      "markdown": "/api/schemas/fullitem-d227e4327c.md",
+      "file": "api/schemas/fullitem-d227e4327c.md"
+    },
+    {
+      "id": "api/schemas/generatorrecipe-ec7a64ea79.md",
+      "kind": "schema",
+      "title": "GeneratorRecipe",
+      "description": "The recipe is used in conjunction with the \"generate\" property to set the character set used to generate a new secure value",
+      "tab": "api",
+      "url": "/api.html#definition-generatorrecipe",
+      "markdown": "/api/schemas/generatorrecipe-ec7a64ea79.md",
+      "file": "api/schemas/generatorrecipe-ec7a64ea79.md"
+    },
+    {
+      "id": "api/schemas/item-652bcc3a47.md",
+      "kind": "schema",
+      "title": "Item",
+      "description": "",
+      "tab": "api",
+      "url": "/api.html#definition-item",
+      "markdown": "/api/schemas/item-652bcc3a47.md",
+      "file": "api/schemas/item-652bcc3a47.md"
+    },
+    {
+      "id": "api/schemas/patch-7e345470de.md",
+      "kind": "schema",
+      "title": "Patch",
+      "description": "",
+      "tab": "api",
+      "url": "/api.html#definition-patch",
+      "markdown": "/api/schemas/patch-7e345470de.md",
+      "file": "api/schemas/patch-7e345470de.md"
+    },
+    {
+      "id": "api/schemas/servicedependency-9ed5ee48bf.md",
+      "kind": "schema",
+      "title": "ServiceDependency",
+      "description": "The state of a registered server dependency.",
+      "tab": "api",
+      "url": "/api.html#definition-servicedependency",
+      "markdown": "/api/schemas/servicedependency-9ed5ee48bf.md",
+      "file": "api/schemas/servicedependency-9ed5ee48bf.md"
+    },
+    {
+      "id": "api/schemas/vault-5d55c415e3.md",
+      "kind": "schema",
+      "title": "Vault",
+      "description": "",
+      "tab": "api",
+      "url": "/api.html#definition-vault",
+      "markdown": "/api/schemas/vault-5d55c415e3.md",
+      "file": "api/schemas/vault-5d55c415e3.md"
+    }
+  ]
+}
